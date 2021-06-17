@@ -1,0 +1,157 @@
+@media only screen and (min-width : 280px) {
+    
+}
+
+@media only screen and (min-width : 320px) {
+    
+}
+
+@media only screen and (min-width : 375px) {
+    
+}
+
+@media only screen and (min-width : 425px) {
+}
+
+@media only screen and (min-width : 768px) {
+
+    .header {
+        height: 500px;
+        padding: 50px 139px;
+        justify-content: space-between;
+    }
+
+    .box {
+        height: 243px;
+        display: flex;
+    }
+
+    .box > div {
+        height: 100%;
+    }
+
+    main {
+        max-width: 80%;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .header::before {
+        content: '';
+        background: #fff;
+        position: absolute;
+        right: 0;
+        width: 25%;
+        top: 0;
+        bottom: 0;
+    }
+
+    .header::after {
+        content: '';
+        background: linear-gradient(to left, #fff 6%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        right: 25%;
+        width: 45%;
+        top: 0;
+        bottom: 0;
+    }
+
+    
+
+    .immo {
+        margin-left: auto;
+    }
+
+    .immo p {
+        width: 500px;
+    }
+
+    .div {
+        height: 60px;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        z-index: 9;
+        padding: 0;
+        align-items: center;
+        width: 100%;
+    }
+
+    .div * {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .div-range {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input {
+        width: 300px;
+        height: 100%;
+        background-color: #3f4aab;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        padding: 0 20px;
+        color: white;
+        margin-bottom: 0;
+    }
+
+    .in {
+        background-color: #3F3697;
+    }
+
+    input[type='submit'] {
+        width: 170px;
+        color: black;
+        height: 100%;
+    }
+    
+    .input::placeholder {
+        color: #fff;
+        opacity: 1;
+    }
+    
+    .input:-ms-input-placeholder {
+        color: #fff;
+    }
+    
+    .input::-ms-input-placeholder {
+        color: #fff;
+    }
+
+    .row {
+        padding-right: 105px;
+    }
+
+    footer {
+        padding: 50px 15px 20px;
+    }
+
+    .btn-more {
+        width: 96%;
+    }
+
+    .mt-3i {
+        margin-top: 1rem!important;
+    }
+
+    .btn-more {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    
+    .last-div-of-media {
+        padding-right: 70px;
+    }
+
+    .media-contact-us {
+        padding-right: 45px;
+    }
+
+}
