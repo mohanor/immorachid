@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
 
+    <link rel="stylesheet" href="./assets/js/fancybox-master/jquery.fancybox.min.css">
+
     <link rel="stylesheet" href="./assets/css/index-3.css">
     <link rel="stylesheet" href="./assets/css/responsive-3.css">
 </head>
@@ -81,7 +83,15 @@
                         <span style="direction: ltr;">1700000</span>
                         <span>د.م</span>
                     </div>
-                    <img src="./assets/media/icons/zoom-in.svg" class="zoom-in" alt="zoom in">
+
+                    <a data-fancybox="gallery" href="./assets/media/small-1621025669-HT7KkletVg.jpg">
+                        <img src="./assets/media/icons/zoom-in.svg" class="zoom-in" alt="zoom in">
+                    </a>
+
+                    <a data-fancybox="gallery" href="./assets/media/small-1621551169-d2c04CSOx4.jpg">
+                        <img src="./assets/media/small-1621550795-cyawHa0472.jpg" class="all-img" alt="."
+                            style="display: none;">
+                    </a>
                 </div>
                 <div class="desc">
                     <div>
@@ -231,6 +241,18 @@
             </div>
         </div>
     </footer>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/fancybox-master/jquery.fancybox.min.js"></script>
+
+    <script>
+        $('[data-fancybox="gallery"]').fancybox({
+            buttons: [
+                "slideShow",
+                "close"
+            ],
+        });
+    </script>
 </body>
 
 </html>
